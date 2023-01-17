@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width">
+    <meta name="description" content="About tourism for Granollers">
+    <meta name="author" content="Gerard Sánchez Gomez">
     <title>Granollers-PAC2-About</title>
+    <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="preload" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" as="style">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <script type="module" async src="app.js"></script>
     <script type="module" async src="lazyLoading.js"></script>
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
@@ -14,7 +18,7 @@
    <header>
       <nav>
         <div class="logo-container">
-          <object data="./img/logo.svg"></object>
+          <object aria-label="Logotip principal" data="./img/logo.svg">Logotip principal</object>
           <h1>Granollers</h1>
         </div>
         <ul> 
@@ -52,7 +56,7 @@
             <source media="(min-width: 200px)" srcset="./img/400/Porxada-400.jpg" alt="Porxada">
             <source srcset="./img/avif/Porxada.avif" type="image/avif">
             <source srcset="./img/webp/Porxada.webp" type="image/webp">
-            <img loading="lazy" src="./img/Porxada.jpg" alt="Porxada">
+            <img loading="lazy" src="./img/Porxada.jpg" alt="Porxada" width="" height="">
           </picture>
           
           <p class="separation">
@@ -120,7 +124,7 @@
     <footer> 
       <div class="footer-container">    
         <div class="footer-nav">
-          <img src="./img/logo.svg" alt="logotipo footer" width="40">
+          <img src="./img/logo.svg" alt="logotipo footer" width="40" height="40">
             <ul> 
               <li><a href="./index.html">Inici</a></li>  
               <li><a href="./about.html">Coneix</a></li>
