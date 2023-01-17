@@ -59,7 +59,7 @@ header {
   height: 250px;
   background-repeat: no-repeat;
   background-image: url('./img/header.jpg');
-  background-image: -webkit-image-set(url('./img/webp/header.webp') 1x);  
+  background-image: -webkit-image-set(url('./img/webp/header.webp'));  
   background-position: top center;
   opacity: 0.9;
   display: flex;
