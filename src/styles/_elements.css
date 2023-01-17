@@ -59,7 +59,7 @@ header {
   height: 280px;
   background-repeat: no-repeat;
   background-image: url('./img/header.jpg');
-  background-image: -webkit-image-set(url('./img/webp/header.webp') 1x);  
+  background-image: -webkit-image-set(url('./img/webp/header.webp'));  
   background-position: top center;
   opacity: 0.9;
   display: flex;
@@ -493,10 +493,10 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: #000;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
   line-height: 35px;
 }
 
@@ -524,6 +524,10 @@ footer img:hover{
 .footer-nav img {
   margin-top: 15px;
   margin-bottom: 15px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
 }
 
 .footer-nav ul {
