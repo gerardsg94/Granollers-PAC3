@@ -1,0 +1,818 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  font-size: 100%;
+  list-style-type: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+*, ol, ul {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+picture img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.position {
+  margin-bottom: 10px;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.icon-position {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.img-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 80%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.separation {
+  margin-bottom: 15px;
+}
+
+header {
+  height: 250px;
+  opacity: .9;
+  background-image: url("header.129b7345.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+nav ul {
+  word-spacing: 15px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav h1, nav ul li a:hover {
+  color: #007dc1;
+}
+
+nav h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+nav object {
+  width: 80px;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.link-page {
+  color: #007dc1;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.button {
+  color: #fff;
+  text-shadow: 0 1px #154682;
+  background: #007dc1 linear-gradient(#007dc1 5%, #0061a7);
+  border: 1px solid #124d77;
+  border-radius: 3px;
+  margin-top: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: inset 0 1px #54a3f7;
+}
+
+.button:hover {
+  background: #007dc1 linear-gradient(#007dc1 5%, #007dc1);
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.visit-p {
+  margin-bottom: 35px;
+}
+
+.visit-grid {
+  grid-row-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding-top: 25px;
+  display: grid;
+}
+
+.esglesia {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.carrer-comercial {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.porxada {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.muralla {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.congost {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.museu {
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+.visit-grid a {
+  color: #007dc1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.visit-info-img {
+  height: 100%;
+  width: 100%;
+}
+
+.img-index-esteve {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
+  height: 600px;
+  background-image: url("Sant_Esteve-600.dbf0367d.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.img-index-esteve:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-corona {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
+  height: 600px;
+  background-image: url("Plaça_Corona-600.8ecbce13.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.img-index-corona:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-porxada {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
+  height: 600px;
+  background-image: url("Porxada-600.9b48cd6f.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.img-index-porxada:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-muralla {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
+  height: 600px;
+  background-image: url("Muralla-600.196092f4.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.img-index-muralla:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-congost {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
+  height: 600px;
+  background-image: url("Congost-600.baff7611.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.img-index-congost:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-museu {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
+  height: 600px;
+  background-image: url("Museu-600.b575e99f.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.img-index-museu:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.title, .title:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.title:hover {
+  color: #007dc1;
+}
+
+.resume-grid {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.active {
+  filter: sepia(300%) hue-rotate(150deg) saturate(450%);
+  opacity: .4;
+}
+
+.resume-esglesia {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.resume-carrer-comercial {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.resume-porxada {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.resume-muralla {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.resume-congost {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.resume-museu {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.container-form {
+  width: 100%;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.form-group {
+  text-align: left;
+  margin-top: 8px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+  font-weight: 700;
+  display: block;
+}
+
+input {
+  height: 48px;
+}
+
+input, textarea {
+  border: 3px solid #000;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  font-size: 30px;
+}
+
+.comments {
+  width: 80%;
+  border-top: 10px solid #007dc1;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.comment {
+  text-align: justify;
+  border-left: 10px solid #007dc1;
+  margin-bottom: 50px;
+  padding-left: 25px;
+}
+
+.comment-name {
+  padding-bottom: 15px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.grid-bibliography {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-rows: repeat(14, 1fr);
+  grid-template-columns: 1fr;
+  font-size: 13px;
+  display: grid;
+}
+
+.img-1 {
+  width: 100%;
+  background-image: url("header.129b7345.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.text-1 {
+  border: 1px solid #000;
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.img-2 {
+  background-image: url("Sant_Esteve-slide.79a70206.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.text-2 {
+  border: 1px solid #000;
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.img-3 {
+  background-image: url("Plaça_Corona-slide.9cfcb632.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.text-3 {
+  border: 1px solid #000;
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+.img-4 {
+  background-image: url("Porxada-slide.cb1cf39b.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 7 / 1 / 8 / 2;
+}
+
+.text-4 {
+  border: 1px solid #000;
+  grid-area: 8 / 1 / 9 / 2;
+}
+
+.img-5 {
+  background-image: url("Muralla-slide.f5d87416.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 9 / 1 / 10 / 2;
+}
+
+.text-5 {
+  border: 1px solid #000;
+  grid-area: 10 / 1 / 11 / 2;
+}
+
+.img-6 {
+  background-image: url("Congost-slide.934dd64b.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 11 / 1 / 12 / 2;
+}
+
+.text-6 {
+  border: 1px solid #000;
+  grid-area: 12 / 1 / 13 / 2;
+}
+
+.img-7 {
+  background-image: url("Museu-slide.6dee99d0.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  grid-area: 13 / 1 / 14 / 2;
+}
+
+.text-7 {
+  border: 1px solid #000;
+  grid-area: 14 / 1 / 15 / 2;
+}
+
+footer {
+  color: #fff;
+  background-color: #007dc1;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer img {
+  filter: brightness(0);
+}
+
+footer img:hover {
+  filter: brightness(0) invert();
+}
+
+.footer-container {
+  grid-row-gap: 15px;
+  width: 80%;
+  grid-template-rows: 1fr 1fr 50px;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  display: grid;
+}
+
+.footer-nav {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.footer-nav img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-nav ul {
+  word-spacing: 10px;
+}
+
+.footer-nav ul li a {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #fff, #fff 50%, #000 0);
+  background-position: -100%;
+  background-size: 200% 100%;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+}
+
+.footer-nav ul li a:before {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+.footer-nav ul li a:hover {
+  background-position: 0;
+}
+
+.footer-nav ul li a:hover:before {
+  width: 100%;
+}
+
+.social-media {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.social-media ul {
+  word-spacing: 15px;
+  margin-top: 16px;
+}
+
+.social-media ul li a {
+  font-size: 30px;
+}
+
+.privacity {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.privacity ul {
+  word-spacing: 15px;
+}
+
+.privacity ul li a:hover {
+  text-decoration: underline;
+}
+
+.anim-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.loading {
+  fill: #007dc1;
+  height: 40px;
+  width: 40px;
+  animation: .5s ease-in infinite alternate spinner;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.animation-text2 span {
+  width: 22ch;
+  animation: 2s steps(22, end) typing, .5s step-end infinite alternate blink;
+}
+
+.animation-text h1, .animation-text2 span {
+  white-space: nowrap;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+.animation-text h1 {
+  width: 24ch;
+  border-right: 4px solid;
+  animation: 2s steps(24, end) typing, .5s step-end infinite alternate blink;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: #0000;
+  }
+}
+
+@media (min-width: 750px) {
+  header {
+    height: 300px;
+    opacity: .9;
+    background-image: url("header.129b7345.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .container-form {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .comments {
+    width: 60%;
+  }
+
+  .comment-name {
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  input {
+    height: 48px;
+  }
+
+  input, textarea {
+    border: 3px solid #000;
+    font-size: 25px;
+  }
+
+  textarea {
+    resize: none;
+    width: 100%;
+  }
+
+  .visit-grid {
+    grid-column-gap: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .esglesia {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .carrer-comercial {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .porxada {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .muralla {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .congost {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .museu {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .grid-bibliography {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+  }
+
+  .img-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .text-1 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .img-2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .text-2 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .img-3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .text-3 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .img-4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .text-4 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+
+  .img-5 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
+  .text-5 {
+    grid-area: 5 / 2 / 6 / 3;
+  }
+
+  .img-6 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+
+  .text-6 {
+    grid-area: 6 / 2 / 7 / 3;
+  }
+
+  .img-7 {
+    grid-area: 7 / 1 / 8 / 2;
+  }
+
+  .text-7 {
+    grid-area: 7 / 2 / 8 / 3;
+  }
+
+  .img-8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+
+  .text-8 {
+    grid-area: 8 / 2 / 9 / 3;
+  }
+
+  .footer-container {
+    grid-row-gap: 15px;
+    grid-template-rows: 100px 1fr 30px;
+  }
+
+  .resume-grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .resume-esglesia {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .resume-carrer-comercial {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .resume-porxada {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .resume-muralla {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .resume-congost {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .resume-museu {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+}
+
+/*# sourceMappingURL=styles.4d663569.css.map */
