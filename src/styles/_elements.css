@@ -67,6 +67,14 @@ header {
   align-items: center;
 }
 
+nav {
+  background-color: #fff;
+  padding: 20px;
+  opacity: 0.6;
+  width: 280px;
+  border-radius: 30px;
+}
+
 nav ul{
   list-style: none;
   word-spacing: 15px;
@@ -77,10 +85,9 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff ;
+  color: #000 ;
   text-decoration: none;
   font-weight: bold;
-  
 }
 
 nav ul li a:hover {
@@ -470,7 +477,7 @@ textarea {
 
 footer {
   background-color: #007dc1;
-  color: #fff;
+  color: #000;
 }
 
 footer ul li {
@@ -479,7 +486,7 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 footer img{
@@ -637,6 +644,10 @@ footer img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  nav {
+    width: 500px;
   }
 
   nav ul li a {

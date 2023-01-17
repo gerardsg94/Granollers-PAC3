@@ -85,6 +85,14 @@ header {
   display: flex;
 }
 
+nav {
+  opacity: .6;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+
 nav ul {
   word-spacing: 15px;
   list-style: none;
@@ -95,7 +103,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   text-decoration: none;
 }
@@ -486,7 +494,7 @@ textarea {
 }
 
 footer {
-  color: #fff;
+  color: #000;
   background-color: #007dc1;
 }
 
@@ -495,7 +503,7 @@ footer ul li {
 }
 
 footer ul li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -643,6 +651,10 @@ footer img:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  nav {
+    width: 500px;
   }
 
   nav ul li a {
