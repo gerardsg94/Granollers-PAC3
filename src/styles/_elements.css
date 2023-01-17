@@ -57,7 +57,7 @@ h2 {
 
 header {
   height: 250px;
-  background-image: url(./img/webp/header.webp); 
+  background-image: url(./img/header.jpg); 
   background-repeat: no-repeat;
   background-position: top center;
   opacity: 0.9;
@@ -178,7 +178,7 @@ nav object {
   height: 600px;
   background-position: center;
   background-size: cover;
-  background-image: url(./img//webp/600/Sant_Esteve-600.webp);
+  background-image: url(./img/600/Sant_Esteve-600.jpg);
 }
 
 .img-index-esteve:hover {
@@ -193,7 +193,7 @@ nav object {
   background-position: center;
   background-size: cover;
   height: 600px;
-  background-image: url(./img/webp/600/Plaça_Corona-600.webp);
+  background-image: url(./img/600/Plaça_Corona-600.jpg);
 }
 
 .img-index-corona:hover {
@@ -208,7 +208,7 @@ nav object {
   background-position: center;
   background-size: cover;
   height: 600px;
-  background-image: url(./img/webp/600/Porxada-600.webp);
+  background-image: url(./img/600/Porxada-600.jpg);
 }
 
 .img-index-porxada:hover {
@@ -223,7 +223,7 @@ nav object {
   background-position: center;
   background-size: cover;
   height: 600px;
-  background-image: url(./img/webp/600/Muralla-600.webp);
+  background-image: url(./img/600/Muralla-600.jpg);
 }
 
 .img-index-muralla:hover {
@@ -238,7 +238,7 @@ nav object {
   background-position: center;
   background-size: cover;
   height: 600px;
-  background-image: url(./img/webp/600/Congost-600.webp);
+  background-image: url(./img/600/Congost-600.jpg);
 }
 
 .img-index-congost:hover {
@@ -253,7 +253,7 @@ nav object {
   background-position: center;
   background-size: cover;
   height: 600px;
-  background-image: url(./img/webp/600/Museu-600.webp);
+  background-image: url(./img/600/Museu-600.jpg);
 }
 
 .img-index-museu:hover {
