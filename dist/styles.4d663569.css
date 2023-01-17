@@ -196,7 +196,7 @@ nav object {
 .img-index-esteve {
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
   height: 600px;
-  background-image: url("Sant_Esteve-600.dbf0367d.jpeg");
+  background-image: -webkit-image-set(url("Sant_Esteve-600.018ffbf7.webp") 1x);
   background-position: 50%;
   background-size: cover;
   transition: all .5s ease-in-out;
@@ -211,7 +211,7 @@ nav object {
 .img-index-corona {
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
   height: 600px;
-  background-image: url("Plaça_Corona-600.8ecbce13.jpeg");
+  background-image: -webkit-image-set(url("Plaça_Corona-600.3b5564c2.webp") 1x);
   background-position: 50%;
   background-size: cover;
   transition: all .5s ease-in-out;
@@ -226,7 +226,7 @@ nav object {
 .img-index-porxada {
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
   height: 600px;
-  background-image: url("Porxada-600.9b48cd6f.jpeg");
+  background-image: -webkit-image-set(url("Porxada-600.645bad3e.webp") 1x);
   background-position: 50%;
   background-size: cover;
   transition: all .5s ease-in-out;
@@ -241,7 +241,7 @@ nav object {
 .img-index-muralla {
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
   height: 600px;
-  background-image: url("Muralla-600.196092f4.jpeg");
+  background-image: -webkit-image-set(url("Muralla-600.29bd4018.webp") 1x);
   background-position: 50%;
   background-size: cover;
   transition: all .5s ease-in-out;
@@ -256,7 +256,7 @@ nav object {
 .img-index-congost {
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
   height: 600px;
-  background-image: url("Congost-600.baff7611.jpeg");
+  background-image: -webkit-image-set(url("Congost-600.6a298d7e.webp") 1x);
   background-position: 50%;
   background-size: cover;
   transition: all .5s ease-in-out;
@@ -271,7 +271,7 @@ nav object {
 .img-index-museu {
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 55%, 0 0);
   height: 600px;
-  background-image: url("Museu-600.b575e99f.jpeg");
+  background-image: -webkit-image-set(url("Museu-600.7945b9f3.webp") 1x);
   background-position: 50%;
   background-size: cover;
   transition: all .5s ease-in-out;
