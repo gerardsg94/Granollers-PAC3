@@ -1,0 +1,8 @@
+{
+  "map": {"inline": true},
+  "plugins": {
+    "postcss-import": true,
+    "cssnano": true,
+    "postcss-custom-properties": true
+  }
+}

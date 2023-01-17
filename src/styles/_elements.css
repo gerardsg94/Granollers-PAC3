@@ -1,0 +1,746 @@
+* { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+picture img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body { text-align: center; }
+
+h1 { 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h2 { 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.position {
+  margin-bottom: 10px;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.icon-position{
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.img-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.separation {
+  margin-bottom: 15px;
+}
+
+/* Header */
+
+header {
+  height: 250px;
+  background-image: url(./img//webp/header.webp); 
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  word-spacing: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #000 ;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+nav ul li a:hover {
+  color: #007dc1;
+}
+
+nav h1 {
+  color: #007dc1;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+nav object {
+  width: 80px;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.link-page {
+  color: #007dc1;
+  font-weight: bold;
+  text-decoration-line: underline;
+  font-size: 18px;
+}
+
+/* Information Granollers */
+
+.button {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+  margin-top: 30px;
+	color:#000;
+	padding: 15px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #007dc1 5%, #007dc1 100%);
+	background-color:#007dc1;
+}
+.button:active {
+	position:relative;
+	top:1px;
+  
+}
+
+/* Visit */
+
+.visit-p {
+  margin-bottom: 35px;
+}
+
+.visit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  padding-top: 25px;
+}
+
+.esglesia { grid-area: 1 / 1 / 2 / 2; }
+
+.carrer-comercial { grid-area: 2 / 1 / 3 / 2; }
+
+.porxada { grid-area: 3 / 1 / 4 / 2; }
+
+.muralla { grid-area: 4 / 1 / 5 / 2; }
+
+.congost { grid-area: 5 / 1 / 6 / 2; }
+
+.museu { grid-area: 6 / 1 / 7 / 2; }
+
+.visit-grid a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007dc1;
+}
+ 
+/* Clip Path Index */
+
+.visit-info-img{
+  width: 100%;
+  height: 100%;
+}
+
+.img-index-esteve {
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 55%, 0% 0%);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img//webp/600/Sant_Esteve-600.webp);
+}
+
+.img-index-esteve:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-corona {
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 55%, 0% 0%);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-image: url(./img/webp/600/Plaça_Corona-600.webp);
+}
+
+.img-index-corona:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-porxada {
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 55%, 0% 0%);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-image: url(./img/webp/600/Porxada-600.webp);
+}
+
+.img-index-porxada:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-muralla {
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 55%, 0% 0%);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-image: url(./img/webp/600/Muralla-600.webp);
+}
+
+.img-index-muralla:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-congost {
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 55%, 0% 0%);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-image: url(./img/webp/600/Congost-600.webp);
+}
+
+.img-index-congost:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.img-index-museu {
+  transition: 0.5s ease-in-out;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 55%, 0% 0%);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-image: url(./img/webp/600/Museu-600.webp);
+}
+
+.img-index-museu:hover {
+  clip-path: polygon(76% 0, 100% 50%, 81% 100%, 65% 100%, 86% 50%, 60% 0);
+  background-color: #007dc1;
+  background-image: none;
+}
+
+.title {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.title:hover {
+  color: #007dc1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/* Visit pages */
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.active {
+  opacity: 0.4;
+  filter: sepia(300%) hue-rotate(150deg) saturate(450%);
+}
+
+.resume-esglesia { grid-area: 1 / 1 / 2 / 2;  }
+
+.resume-carrer-comercial { grid-area: 1 / 2 / 2 / 3; }
+
+.resume-porxada { grid-area: 2 / 1 / 3 / 2; }
+
+.resume-muralla { grid-area: 2 / 2 / 3 / 3; }
+
+.resume-congost { grid-area: 3 / 1 / 4 / 2; }
+
+.resume-museu { grid-area: 3 / 2 / 4 / 3; }
+
+/* Form */
+
+.container-form {
+  width: 100%;
+}
+
+form {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-top: 8px;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  height: 48px;
+  border:  #000 solid 3px;
+}
+
+textarea {
+  width: 100%;
+  border:  #000 solid 3px;
+  resize: none;
+  font-size: 30px;
+}
+
+/*Comments*/
+
+.comments {
+  width: 80%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-top: #007dc1 solid 10px;
+}
+
+.comment {
+  margin-bottom: 50px;
+  padding-left: 25px;
+  text-align: justify;
+  border-left: #007dc1 solid 10px;
+}
+
+.comment-name {
+  padding-bottom: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/*Page Links*/
+
+.grid-bibliography {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(14, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  font-size: 13px;
+}
+
+.img-1 { 
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  background-image: url(./img/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-1 { 
+  grid-area: 2 / 1 / 3 / 2; 
+  border: #000 1px solid;
+}
+
+.img-2  { 
+  grid-area: 3 / 1 / 4 / 2;
+  background-image: url(./img/slide/Sant_Esteve-slide.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-2  { 
+  grid-area: 4 / 1 / 5 / 2; 
+  border: #000 1px solid;
+}
+
+.img-3  { 
+  grid-area: 5 / 1 / 6 / 2; 
+  background-image: url(./img/slide/Plaça_Corona-slide.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-3  { 
+  grid-area: 6 / 1 / 7 / 2; 
+  border: #000 1px solid;
+}
+
+.img-4  { 
+  grid-area: 7 / 1 / 8 / 2;
+  background-image: url(./img/slide/Porxada-slide.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-4  { 
+  grid-area: 8 / 1 / 9 / 2;
+  border: #000 1px solid; 
+}
+
+.img-5  { 
+  grid-area: 9 / 1 / 10 / 2; 
+  background-image: url(./img/slide/Muralla-slide.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-5 { 
+  grid-area: 10 / 1 / 11 / 2;
+  border: #000 1px solid; 
+}
+
+.img-6 { 
+  grid-area: 11 / 1 / 12 / 2;
+  background-image: url(./img/slide/Congost-slide.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-6 { 
+  grid-area: 12 / 1 / 13 / 2;
+  border: #000 1px solid;
+ }
+
+.img-7 { 
+  grid-area: 13 / 1 / 14 / 2;
+  background-image: url(./img/slide/Museu-slide.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-7 { 
+  grid-area: 14 / 1 / 15 / 2;
+  border: #000 1px solid;
+ }
+
+
+/*Footer*/
+
+footer {
+  background-color: #007dc1;
+  color: #000;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer img{
+  filter: brightness(0);
+}
+
+footer img:hover{
+  filter: brightness(0) invert(1);
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 50px;
+  grid-row-gap: 15px;
+}
+
+.footer-nav {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.footer-nav img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-nav ul {
+  word-spacing: 10px;
+}
+
+.footer-nav ul li a {
+  background-image: linear-gradient(
+    to right,
+    #fff,
+    #fff 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.footer-nav ul li a:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.footer-nav ul li a:hover {
+  background-position: 0;
+}
+
+.footer-nav ul li a:hover::before {
+  width: 100%;
+}
+
+.social-media {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.social-media ul {
+  margin-top: 16px;
+  word-spacing: 15px;
+}
+
+.social-media ul li a {
+  font-size: 30px;
+}
+
+.privacity {
+  grid-area: 3 / 1 / 4 / 2; 
+}
+
+.privacity ul {
+  word-spacing: 15px;
+}
+
+.privacity ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Aniamtion Text Writing*/
+
+.anim-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  width: 40px;
+  height: 40px;
+  animation: spinner .5s alternate infinite ease-in;
+  fill: #007dc1;
+}
+
+@keyframes spinner {
+
+  100% {
+   transform: rotate(360deg);
+  }
+}
+
+.animation-text2 span {
+  display: block;
+  margin: 0 auto;
+  white-space: nowrap;
+  width: 22ch;
+
+  animation: typing 2s steps(22), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.animation-text h1 {
+  display: block;
+  margin: 0 auto;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 24ch;
+
+  animation: typing 2s steps(24), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {width: 0; } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
+/* Desktop */
+
+@media (min-width: 750px) {
+
+  header {
+    height: 300px;
+    background-image: url(./img/header.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .container-form {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .comments {
+    width: 60%;
+  }
+
+  .comment-name {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+
+  input {
+    height: 48px;
+    border:  #000 solid 3px;
+    font-size: 25px;
+  }
+
+  textarea {
+    width: 100%;
+    border:  #000 solid 3px;
+    resize: none;
+    font-size: 25px;
+  }
+
+  .visit-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+
+  .esglesia { grid-area: 1 / 1 / 2 / 2; }
+
+  .carrer-comercial { grid-area: 1 / 2 / 2 / 3; }
+
+  .porxada { grid-area: 2 / 1 / 3 / 2; }
+
+  .muralla { grid-area: 2 / 2 / 3 / 3; }
+
+  .congost { grid-area: 3 / 1 / 4 / 2; }
+
+  .museu { grid-area: 3 / 2 / 4 / 3; }
+
+  .grid-bibliography {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    font-size: 13px;
+  }
+  
+  .img-1 { grid-area: 1 / 1 / 2 / 2; }
+  
+  .text-1 { grid-area: 1 / 2 / 2 / 3; }
+  
+  .img-2  { grid-area: 2 / 1 / 3 / 2; }
+  
+  .text-2  { grid-area: 2 / 2 / 3 / 3; }
+  
+  .img-3  { grid-area: 3 / 1 / 4 / 2; }
+  
+  .text-3  { grid-area: 3 / 2 / 4 / 3; }
+  
+  .img-4  { grid-area: 4 / 1 / 5 / 2; }
+  
+  .text-4  { grid-area: 4 / 2 / 5 / 3; }
+  
+  .img-5  { grid-area: 5 / 1 / 6 / 2; }
+  
+  .text-5 { grid-area: 5 / 2 / 6 / 3; }
+  
+  .img-6 { grid-area: 6 / 1 / 7 / 2; }
+  
+  .text-6 { grid-area: 6 / 2 / 7 / 3; }
+  
+  .img-7 { grid-area: 7 / 1 / 8 / 2 }
+  
+  .text-7 { grid-area: 7 / 2 / 8 / 3; }
+  
+  .img-8 { grid-area: 8 / 1 / 9 / 2; }
+  
+  .text-8 { grid-area: 8 / 2 / 9 / 3; }
+
+  .footer-container {
+    grid-template-rows: 100px 1fr 30px;
+    grid-row-gap: 15px;
+  }
+
+  .resume-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .resume-esglesia { grid-area: 1 / 1 / 2 / 2;  }
+
+  .resume-carrer-comercial { grid-area: 2 / 1 / 3 / 2; }
+
+  .resume-porxada { grid-area: 1 / 2 / 2 / 3; }
+
+  .resume-muralla { grid-area: 2 / 2 / 3 / 3; }
+
+  .resume-congost { grid-area: 1 / 3 / 2 / 4; }
+
+  .resume-museu { grid-area: 2 / 3 / 3 / 4; }
+}

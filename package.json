@@ -1,0 +1,47 @@
+{
+  "name": "projecte_pac1",
+  "version": "1.0.0",
+  "description": "Boilerplate tool created by Gerard",
+  "source": "./src/index.html",
+  "browserslist": [
+    "> 0.5%, last 2 versions, not dead",
+    "> 2%"
+  ],
+  "scripts": {
+    "start": "npm-run-all clean parcel:dev",
+    "post:dev": "postcss ./src/styles/main.css --output ./src/styles.css --env development --watch --verbose",
+    "post:build": "postcss ./src/styles/main.css --output ./src/styles.css",
+    "build": "npm-run-all clean post:build parcel:build",
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardsg94/granollers-page.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Gerard Sanchez",
+    "email": "gerard_sanchez94@uoc.edu"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.7.0",
+    "postcss-custom-properties": "^12.1.11",
+    "postcss-import": "^15.0.0",
+    "postcss-modules": "^4.3.1",
+    "postcss-nesting": "^10.2.0",
+    "rimraf": "^3.0.2",
+    "sharp": "^0.29.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0"
+  }
+}
