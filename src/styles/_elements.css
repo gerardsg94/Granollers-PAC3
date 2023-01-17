@@ -56,7 +56,7 @@ h2 {
 /* Header */
 
 header {
-  height: 250px;
+  height: 280px;
   background-repeat: no-repeat;
   background-image: url('./img/header.jpg');
   background-image: -webkit-image-set(url('./img/webp/header.webp') 1x);  
@@ -73,11 +73,11 @@ nav {
   opacity: 0.6;
   width: 280px;
   border-radius: 30px;
+  font-size: 20px;
 }
 
 nav ul{
   list-style: none;
-  word-spacing: 15px;
 }
 
 nav ul li {
@@ -88,10 +88,16 @@ nav ul li a {
   color: #000 ;
   text-decoration: none;
   font-weight: bold;
+  line-height: 35px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 nav ul li a:hover {
   color: #007dc1;
+  text-decoration: underline;
 }
 
 nav h1 {
@@ -112,7 +118,6 @@ nav object {
   color: #007dc1;
   font-weight: bold;
   text-decoration-line: underline;
-  font-size: 18px;
 }
 
 /* Information Granollers */

@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 header {
-  height: 250px;
+  height: 280px;
   opacity: .9;
   background-image: -webkit-image-set(url("header.6fd8c468.webp") 1x);
   background-position: top;
@@ -91,10 +91,10 @@ nav {
   background-color: #fff;
   border-radius: 30px;
   padding: 20px;
+  font-size: 20px;
 }
 
 nav ul {
-  word-spacing: 15px;
   list-style: none;
 }
 
@@ -104,15 +104,19 @@ nav ul li {
 
 nav ul li a {
   color: #000;
+  padding: 10px;
   font-weight: 700;
+  line-height: 35px;
   text-decoration: none;
 }
 
-nav h1, nav ul li a:hover {
+nav ul li a:hover {
   color: #007dc1;
+  text-decoration: underline;
 }
 
 nav h1 {
+  color: #007dc1;
   font-size: 40px;
   font-weight: 700;
 }
@@ -127,7 +131,6 @@ nav object {
 
 .link-page {
   color: #007dc1;
-  font-size: 18px;
   font-weight: 700;
   text-decoration-line: underline;
 }
