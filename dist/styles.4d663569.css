@@ -414,7 +414,7 @@ textarea {
 
 .img-1 {
   width: 100%;
-  background-image: url("header.129b7345.jpeg");
+  background-image: -webkit-image-set(url("header.6fd8c468.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 1 / 1 / 2 / 2;
@@ -426,7 +426,7 @@ textarea {
 }
 
 .img-2 {
-  background-image: url("Sant_Esteve-slide.79a70206.jpeg");
+  background-image: -webkit-image-set(url("Sant_Esteve-slide.102ff7f7.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 3 / 1 / 4 / 2;
@@ -438,7 +438,7 @@ textarea {
 }
 
 .img-3 {
-  background-image: url("Plaça_Corona-slide.9cfcb632.jpeg");
+  background-image: -webkit-image-set(url("Plaça_Corona-slide.9577522a.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 5 / 1 / 6 / 2;
@@ -450,7 +450,7 @@ textarea {
 }
 
 .img-4 {
-  background-image: url("Porxada-slide.cb1cf39b.jpeg");
+  background-image: -webkit-image-set(url("Porxada-slide.ab47887d.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 7 / 1 / 8 / 2;
@@ -462,7 +462,7 @@ textarea {
 }
 
 .img-5 {
-  background-image: url("Muralla-slide.f5d87416.jpeg");
+  background-image: -webkit-image-set(url("Muralla-slide.758f0be4.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 9 / 1 / 10 / 2;
@@ -474,7 +474,7 @@ textarea {
 }
 
 .img-6 {
-  background-image: url("Congost-slide.934dd64b.jpeg");
+  background-image: -webkit-image-set(url("Congost-slide.b27bfd7d.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 11 / 1 / 12 / 2;
@@ -486,7 +486,7 @@ textarea {
 }
 
 .img-7 {
-  background-image: url("Museu-slide.6dee99d0.jpeg");
+  background-image: -webkit-image-set(url("Museu-slide.91a272b2.webp") 1x);
   background-position: 50%;
   background-size: cover;
   grid-area: 13 / 1 / 14 / 2;

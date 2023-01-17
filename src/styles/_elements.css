@@ -193,7 +193,7 @@ nav object {
   background-position: center;
   background-size: cover;
   background-image: url('./img/600/Sant_Esteve-600.jpg');
-  background-image: -webkit-image-set(url('./img/webp/600/Sant_Esteve-600.webp') 1x);  
+  background-image: -webkit-image-set(url('./img/webp/600/Sant_Esteve-600.webp'));  
 }
 
 .img-index-esteve:hover {
@@ -209,7 +209,7 @@ nav object {
   background-size: cover;
   height: 600px;
   background-image: url('./img/600/Plaça_Corona-600.jpg');
-  background-image: -webkit-image-set(url('./img/webp/600/Plaça_Corona-600.webp') 1x); 
+  background-image: -webkit-image-set(url('./img/webp/600/Plaça_Corona-600.webp')); 
 }
 
 .img-index-corona:hover {
@@ -225,7 +225,7 @@ nav object {
   background-size: cover;
   height: 600px;
   background-image: url('./img/600/Porxada-600.jpg');
-  background-image: -webkit-image-set(url('./img/webp/600/Porxada-600.webp') 1x);
+  background-image: -webkit-image-set(url('./img/webp/600/Porxada-600.webp'));
 }
 
 .img-index-porxada:hover {
@@ -241,7 +241,7 @@ nav object {
   background-size: cover;
   height: 600px;
   background-image: url('./img/600/Muralla-600.jpg');
-  background-image: -webkit-image-set(url('./img/webp/600/Muralla-600.webp') 1x);
+  background-image: -webkit-image-set(url('./img/webp/600/Muralla-600.webp'));
 }
 
 .img-index-muralla:hover {
@@ -257,7 +257,7 @@ nav object {
   background-size: cover;
   height: 600px;
   background-image: url('./img/600/Congost-600.jpg');
-  background-image: -webkit-image-set(url('./img/webp/600/Congost-600.webp') 1x);
+  background-image: -webkit-image-set(url('./img/webp/600/Congost-600.webp'));
 }
 
 .img-index-congost:hover {
@@ -273,7 +273,7 @@ nav object {
   background-size: cover;
   height: 600px;
   background-image: url('./img/600/Museu-600.jpg');
-  background-image: -webkit-image-set(url('./img/webp/600/Museu-600.webp') 1x);
+  background-image: -webkit-image-set(url('./img/webp/600/Museu-600.webp'));
 }
 
 .img-index-museu:hover {
@@ -396,7 +396,8 @@ textarea {
 .img-1 { 
   grid-area: 1 / 1 / 2 / 2;
   width: 100%;
-  background-image: url(./img/header.jpg);
+  background-image: url('./img/header.jpg');
+  background-image: -webkit-image-set(url('./img/webp/header.webp'));
   background-size: cover;
   background-position: center;
 }
@@ -408,7 +409,8 @@ textarea {
 
 .img-2  { 
   grid-area: 3 / 1 / 4 / 2;
-  background-image: url(./img/slide/Sant_Esteve-slide.jpg);
+  background-image: url('./img/slide/Sant_Esteve-slide.jpg');
+  background-image: -webkit-image-set(url('./img/webp/slide/Sant_Esteve-slide.webp'));
   background-position: center;
   background-size: cover;
 }
@@ -420,7 +422,8 @@ textarea {
 
 .img-3  { 
   grid-area: 5 / 1 / 6 / 2; 
-  background-image: url(./img/slide/Plaça_Corona-slide.jpg);
+  background-image: url('./img/slide/Plaça_Corona-slide.jpg');
+  background-image: -webkit-image-set(url('./img/webp/slide/Plaça_Corona-slide.webp'));
   background-position: center;
   background-size: cover;
 }
@@ -432,7 +435,8 @@ textarea {
 
 .img-4  { 
   grid-area: 7 / 1 / 8 / 2;
-  background-image: url(./img/slide/Porxada-slide.jpg);
+  background-image: url('./img/slide/Porxada-slide.jpg');
+  background-image: -webkit-image-set(url('./img/webp/slide/Porxada-slide.webp'));
   background-position: center;
   background-size: cover;
 }
@@ -444,7 +448,8 @@ textarea {
 
 .img-5  { 
   grid-area: 9 / 1 / 10 / 2; 
-  background-image: url(./img/slide/Muralla-slide.jpg);
+  background-image: url('./img/slide/Muralla-slide.jpg');
+  background-image: -webkit-image-set(url('./img/webp/slide/Muralla-slide.webp'));
   background-position: center;
   background-size: cover;
 }
@@ -456,7 +461,8 @@ textarea {
 
 .img-6 { 
   grid-area: 11 / 1 / 12 / 2;
-  background-image: url(./img/slide/Congost-slide.jpg);
+  background-image: url('./img/slide/Congost-slide.jpg');
+  background-image: -webkit-image-set(url('./img/webp/slide/Congost-slide.webp'));
   background-position: center;
   background-size: cover;
 }
@@ -468,7 +474,8 @@ textarea {
 
 .img-7 { 
   grid-area: 13 / 1 / 14 / 2;
-  background-image: url(./img/slide/Museu-slide.jpg);
+  background-image: url('./img/slide/Museu-slide.jpg');
+  background-image: -webkit-image-set(url('./img/webp/slide/Museu-slide.webp'));
   background-position: center;
   background-size: cover;
 }
