@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width">
+    <meta name="description" content="About tourism for Granollers">
+    <meta name="author" content="Gerard Sánchez Gomez">
     <title>Granollers-PAC2-Carrer</title>
+    <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="preload" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" as="style">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <script type="module" async src="lazyLoading.js"></script>
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
   </head>
@@ -13,7 +17,7 @@
     <header>
       <nav>
         <div class="logo-container">
-          <object data="./img/logo.svg"></object>
+          <object aria-label="Logotip principal" data="./img/logo.svg">Logotip principal</object>
           <h1>Granollers</h1>
         </div>
         <ul> 
@@ -40,15 +44,13 @@
             Aconsegueixen unificar la ciutat i podem presenciar un gran
             carrer central en mig de la ciutat, totalment peatonal.
           </p>
-        
           <picture>
-            <source media="(min-width: 800px)" srcset="./img/slide/Plaça_Corona-slide.jpg" alt="Plaça de la corona">
-            <source media="(min-width: 200px)" srcset="./img/600/Plaça_Corona-600.jpg" alt="Plaça de la corona">
-            <source srcset="./img/avif/Plaça_Corona.avif" type="image/avif">
-            <source srcset="./img/webp/Plaça_Corona.webp" type="image/webp">
-            <img loading="lazy" src="./img/Plaça_Corona.jpg" alt="Plaça de la corona">
+            <source media="(min-width: 800px)" srcset="./img/webp/slide/Plaça_Corona-slide.webp" alt="Plaça_Corona" width="1000" height="400">
+            <source media="(min-width: 200px)" srcset="./img/webp/600/Plaça_Corona-600.webp" alt="Plaça_Corona" width="600" height="600">
+            <source srcset="./img/avif/Plaça_Corona.avif" type="image/avif" width="1280" height="960">
+            <source srcset="./img/Plaça_Corona.jpg" type="image/jpg" width="1280" height="960">
+            <img loading="lazy" src="./img/webp/Plaça_Corona.webp" alt="Plaça_Corona" width="1280" height="960">
           </picture>
-        
           <p class="separation">
             No dubtis en presenciar les teves botigues preferides unificades en un sol carrer.
           </p>
@@ -66,66 +68,66 @@
         <div class="resume-esglesia">
           <a href="./visit-esteve.html" title="Esglèsia Sant Esteve">             
             <picture>
-              <source media="(min-width: 800px)" srcset="./img/slide/Sant_Esteve-slide.jpg" alt="Esglesia Sant Esteve">
-              <source media="(min-width: 200px)" srcset="./img/600/Sant_Esteve-600.jpg" alt="Esglesia Sant Esteve">
-              <source srcset="./img/avif/Sant_Esteve.avif" type="image/avif">
-              <source srcset="./img/webp/Sant_Esteve.webp" type="image/webp">
-              <img loading="lazy" src="./img/Sant_Esteve.jpg" alt="Esglesia Sant Esteve">
+              <source media="(min-width: 800px)" srcset="./img/webp/slide/Sant_Esteve-slide.webp" alt="Sant_Esteve" width="1000" height="400">
+              <source media="(min-width: 200px)" srcset="./img/webp/200/Sant_Esteve-200.webp" alt="Sant_Esteve" width="200" height="200">
+              <source srcset="./img/avif/Sant_Esteve.avif" type="image/avif" width="1280" height="960">
+              <source srcset="./img/Sant_Esteve.jpg" type="image/jpg" width="1280" height="960">
+              <img loading="lazy" src="./img/webp/Sant_Esteve.webp" alt="Sant_Esteve" width="1280" height="960">
             </picture>
           </a>
         </div>
         <div class="resume-carrer-comercial active">
           <a href="./visit-carrer.html">
             <picture>
-              <source media="(min-width: 800px)" srcset="./img/slide/Plaça_Corona-slide.jpg" alt="Plaça de la corona">
-              <source media="(min-width: 200px)" srcset="./img/600/Plaça_Corona-600.jpg" alt="Plaça de la corona">
-              <source srcset="./img/avif/Plaça_Corona.avif" type="image/avif">
-              <source srcset="./img/webp/Plaça_Corona.webp" type="image/webp">
-              <img loading="lazy" src="./img/Plaça_Corona.jpg" alt="Plaça de la corona">
+              <source media="(min-width: 800px)" srcset="./img/webp/slide/Plaça_Corona-slide.webp" alt="Plaça_Corona" width="1000" height="400">
+              <source media="(min-width: 200px)" srcset="./img/webp/200/Plaça_Corona-200.webp" alt="Plaça_Corona" width="200" height="200">
+              <source srcset="./img/avif/Plaça_Corona.avif" type="image/avif" width="1280" height="960">
+              <source srcset="./img/Plaça_Corona.jpg" type="image/jpg" width="1280" height="960">
+              <img loading="lazy" src="./img/webp/Plaça_Corona.webp" alt="Plaça_Corona" width="1280" height="960">
             </picture>
           </a>
         </div>
         <div class="resume-porxada">
           <a href="./visit-porxada.html" title="Porxada"> 
             <picture>
-              <source media="(min-width: 800px)" srcset="./img/slide/Porxada-slide.jpg" alt="Porxada">
-              <source media="(min-width: 200px)" srcset="./img/600/Porxada-600.jpg" alt="Porxada">
-              <source srcset="./img/avif/Porxada.avif" type="image/avif">
-              <source srcset="./img/webp/Porxada.webp" type="image/webp">
-              <img loading="lazy" src="./img/Porxada.jpg" alt="Porxada">
+              <source media="(min-width: 800px)" srcset="./img/webp/slide/Porxada-slide.webp" alt="Porxada" width="1000" height="400">
+              <source media="(min-width: 200px)" srcset="./img/webp/200/Porxada-200.webp" alt="Porxada" width="200" height="200">
+              <source srcset="./img/avif/Porxada.avif" type="image/avif" width="1280" height="960">
+              <source srcset="./img/Porxada.jpg" type="image/jpg" width="1280" height="960">
+              <img loading="lazy" src="./img/webp/Porxada.webp" alt="Porxada" width="1280" height="960">
             </picture>
           </a>
         </div>
         <div class="resume-muralla">
           <a href="./visit-muralla.html" title="Muralla">
             <picture>
-              <source media="(min-width: 800px)" srcset="./img/slide/Muralla-slide.jpg" alt="Muralla">
-              <source media="(min-width: 200px)" srcset="./img/600/Muralla-600.jpg" alt="Muralla">
-              <source srcset="./img/avif/Muralla.avif" type="image/avif">
-              <source srcset="./img/webp/Muralla.webp" type="image/webp">
-              <img loading="lazy" src="./img/Muralla.jpg" alt="Muralla">
+              <source media="(min-width: 800px)" srcset="./img/webp/slide/Muralla-slide.webp" alt="Muralla" width="1000" height="400">
+              <source media="(min-width: 200px)" srcset="./img/webp/200/Muralla-200.webp" alt="Muralla" width="200" height="200">
+              <source srcset="./img/avif/Muralla.avif" type="image/avif" width="1280" height="960">
+              <source srcset="./img/Muralla.jpg" type="image/jpg" width="1280" height="960">
+              <img loading="lazy" src="./img/webp/Muralla.webp" alt="Muralla" width="1280" height="960">
             </picture>
           </a>
         </div>
         <div class="resume-congost">
           <a href="./visit-congost.html" title="Riu Congost">
             <picture>
-              <source media="(min-width: 800px)" srcset="./img/slide/Congost-slide.jpg" alt="Riu Congost">
-              <source media="(min-width: 200px)" srcset="./img/600/Congost-600.jpg" alt="Riu Congost">
-              <source srcset="./img/avif/Congost.avif" type="image/avif">
-              <source srcset="./img/webp/Congost.webp" type="image/webp">
-              <img loading="lazy" src="./img/Congost.jpg" alt="Riu Congost">
+              <source media="(min-width: 800px)" srcset="./img/webp/slide/Congost-slide.webp" alt="Congost" width="1000" height="400">
+              <source media="(min-width: 200px)" srcset="./img/webp/200/Congost-200.webp" alt="Congost" width="200" height="200">
+              <source srcset="./img/avif/Congost.avif" type="image/avif" width="1280" height="960">
+              <source srcset="./img/Congost.jpg" type="image/jpg" width="1280" height="960">
+              <img loading="lazy" src="./img/webp/Congost.webp" alt="Congost" width="1280" height="960">
             </picture>
           </a>
         </div>
         <div class="resume-museu">
           <a href="./visit-museu.html" title="Museu de Granollers">
             <picture>
-              <source media="(min-width: 800px)" srcset="./img/slide/Museu-slide.jpg" alt="Museu de Granollers">
-              <source media="(min-width: 200px)" srcset="./img/400/Museu-400.jpg" alt="Museu de Granollers">
-              <source srcset="./img/avif/Museu.avif" type="image/avif">
-              <source srcset="./img/webp/Museu.webp" type="image/webp">
-              <img loading="lazy" src="./img/Museu.jpg" alt="Museu de Granollers">
+              <source media="(min-width: 800px)" srcset="./img/webp/slide/Museu-slide.webp" alt="Museu" width="1000" height="400">
+              <source media="(min-width: 200px)" srcset="./img/webp/200/Museu-200.webp" alt="Museu" width="200" height="200">
+              <source srcset="./img/avif/Museu.avif" type="image/avif" width="1280" height="960">
+              <source srcset="./img/Museu.jpg" type="image/jpg" width="1280" height="960">
+              <img loading="lazy" src="./img/webp/Museu.webp" alt="Museu" width="1280" height="960">
             </picture>
           </a>
         </div>
@@ -135,7 +137,7 @@
   <footer> 
     <div class="footer-container">    
       <div class="footer-nav">
-        <img src="./img/logo.svg" alt="logotipo footer" width="40">
+        <img src="./img/logo.svg" alt="logotipo footer" width="40" height="40">
           <ul> 
             <li><a href="./index.html">Inici</a></li>  
             <li><a href="./about.html">Coneix</a></li>
